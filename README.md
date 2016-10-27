@@ -13,10 +13,9 @@ git config --global -e
 [alias]
         tree = log --graph --oneline --decorate --branches --all
         treeme = log --graph --oneline --decorate --branches
-        treeo = log --oneline --decorate --all --graph
         treea = log --graph --pretty=short --decorate --branches --all
         treemea = log --graph --pretty=short --decorate --branches
-        treemeadv = log --graph --format='%C(cyan) %p %Cred %h %C(white) %s %C(cyan) <%an>%C(bold yellow)%d%Creset'
-        treeadv = log --graph --format='%C(cyan) %p %Cred %h %C(white) %s %C(cyan) <%an>%C(bold yellow)%d%Creset'
+        treeadv = log --all --graph --decorate --branches --format='%C(cyan) %p %Cred %h %C(white) %s %C(cyan) <%an>%C(bold yellow)%d%Creset'
+        treemeadv = log --graph --decorate --branches --format='%C(cyan) %p %Cred %h %C(white) %s %C(cyan) <%an>%C(bold yellow)%d%Creset'
 ```
 
